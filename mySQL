@@ -1,0 +1,15 @@
+CREATE DATABASE `test`;
+
+USE `test`;
+
+CREATE TABLE `users` (
+
+`id_user` BIGINT NOT NULL auto_increment,
+
+`email` VARCHAR (256) NOT NULL,
+
+`pass` VARCHAR (256) NOT NULL,
+
+PRIMARY KEY (`id_user`)
+
+) DEFAULT CHARSET=cp1251 AUTO_INCREMENT=1 ;

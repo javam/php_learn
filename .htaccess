@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteBase /
+
+RewriteRule ^profile www/pages/user/profile.php [QSA]
+
+
+
